@@ -27,9 +27,7 @@ function duplicateCount(text) {
   }
 
   // Return number of map keys that have values greater than 1
-  return Object.keys(letterNumberMap).filter(
-    letter => letterNumberMap[letter] > 1
-  ).length
+  return Object.values(letterNumberMap).filter(value => value > 1).length
 }
 
 console.log(duplicateCount("abcde"))

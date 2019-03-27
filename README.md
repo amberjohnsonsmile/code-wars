@@ -1,1 +1,1 @@
-# Code Wars Katas
+# Practice Coding Questions
